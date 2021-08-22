@@ -1,0 +1,18 @@
+.career-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2{
+    border-bottom: 1px solid #feab9a;
+}
+
+@media screen and (max-width:600px){
+    .career-section img{
+        width: 100%;
+    }
+}
