@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
 export const HomeSection = styled.div`
-    /* padding: 1rem; */
+    width: 100%;
+    max-width: 100%;
     @media screen and (max-width:600px){
-        padding: 2rem;
+        padding: 0.3rem;
     }
 `
 export const HomeDetails = styled.div`
@@ -12,14 +13,13 @@ export const HomeDetails = styled.div`
     align-items: center;
     @media screen and (max-width:600px){
         display: flex;
+        /* flex-direction:column; */
     }
 `
 export const HomeIntro = styled.div`
-  
-   
-
    @media screen and (max-width:600px){
     line-height:3rem;
+    margin: 2rem auto;
    }
 `
 
@@ -45,6 +45,9 @@ export const HomeGreet2= styled.p`
 export const HomeGreet3= styled.div`
   /* margin-left: 3rem; */
   line-height: 4rem;
+  @media screen and (max-width:600px){
+      line-height:2.6rem;
+    }
 `
 
 
