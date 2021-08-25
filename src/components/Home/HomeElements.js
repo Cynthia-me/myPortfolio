@@ -43,7 +43,7 @@ export const HomeGreet2= styled.p`
 
 
 export const HomeGreet3= styled.div`
-  margin-left: 3rem;
+  /* margin-left: 3rem; */
   line-height: 4rem;
 `
 

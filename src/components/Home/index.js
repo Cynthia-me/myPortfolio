@@ -9,10 +9,10 @@ function Home() {
                 <HomeDetails>
                     <HomeIntro>
                         <HomeGreet>HELLO,</HomeGreet>
-                        <HomeGreet2>I AM</HomeGreet2>
+                        <HomeGreet2>I am</HomeGreet2>
                         <HomeGreet3>
-                            <HomeGreetH4>AYEBARE CYNTHIA</HomeGreetH4>
-                            <HomeGreetP>a front-end web developer</HomeGreetP>
+                            <HomeGreetH4>Ayebare Cynthia.</HomeGreetH4>
+                            <HomeGreetP>a front-end developer</HomeGreetP>
                         </HomeGreet3>
                     </HomeIntro>
                     <HomeImage src = {me} />
