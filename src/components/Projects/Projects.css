@@ -28,6 +28,9 @@
   
 }
 
+.project p {
+   color: #feab9a;
+}
 .project img{
     width: 500px;
     height: 250px;
